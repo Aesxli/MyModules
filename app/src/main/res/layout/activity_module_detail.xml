@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ModuleDetailActivity"
+    android:background="@drawable/background"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/textViewMC"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="25dp"
+        android:textSize="25dp"
+        android:fontFamily="cursive"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/textViewMN"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="25dp"
+        android:textSize="25dp"
+        android:fontFamily="cursive"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/textViewAY"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="25dp"
+        android:textSize="25dp"
+        android:fontFamily="cursive"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/textViewS"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="25dp"
+        android:textSize="25dp"
+        android:fontFamily="cursive"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/textViewModCred"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="25dp"
+        android:textSize="25dp"
+        android:fontFamily="cursive"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/textViewV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="25dp"
+        android:textSize="25dp"
+        android:fontFamily="cursive"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:text="TextView" />
+
+    <Button
+        android:id="@+id/RTM"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="25dp"
+        android:text="@string/RTM" />
+</LinearLayout>
